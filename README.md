@@ -9,5 +9,10 @@ Para la ejecución via **Maven** se debe realizar lo siguiente:
 ```mvn
 mvn clean test "-Dkarate.options=--tags @PruebaFinal"
 ```
+"@PruebaFinal" es nombre del TAG que ejecuta todos los métodos del usuario, en caso se desea ejecutar otro TAG, modificar dicho parametro
+el TAG "@ActualizarUsuario" es para el método PUT/usuarios/{_id}
+el TAG "@EliminarUsuarioId" es para el método DELETE/usuarios/{_id}
+el TAG "@BuscarUsuarioPorId" es para el método GET/usuarios/{_id}
+el TAG "@CrearUsuario" es para el método POST/usuarios
+el TAG "@ListarUsuarios" es para el método GET/usuarios
 
-"PruebaFinal" es nombre del TAG que se desea ejecutar, en caso se desea ejecutar otro TAG, modificar dicho parametro
