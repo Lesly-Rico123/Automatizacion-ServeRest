@@ -1,0 +1,40 @@
+{
+  "fields": {
+    "assignee": {
+      "//como obtengo mi accountId" :"En un navegador logeado a Jira Saas ingresa lo siguiente https://bcp-ti.atlassian.net/rest/api/3/myself",
+      "accountId": "712020:4c312469-1f7d-4655-9a9e-412229451641"
+    },
+    "customfield_10997": {
+      "//Codigo de Aplicacion": "Ingresar codigo de 4 digitos",
+      "value": "MBBK"
+    },
+    "customfield_11012": {
+      "//Automatizable": "Si, No",
+      "value": "No"
+    },
+    "customfield_12070": {
+      "//Automatizado": "Si, No",
+      "value": "No"
+    },
+    "customfield_10454": {
+      "//Test Type BCP": "API, Seguridad, Performance, Web, Api, C/S, Mobile, KarateAPI, KarateWEB, KarateE2E",
+      "value": "Mobile"
+    },
+    "customfield_11011": {
+      "//Regresion": "Si,No",
+      "value": "No"
+    },
+    "customfield_11014": {
+      "//Critico": "Si, No",
+      "value": "Si"
+    },
+    "customfield_12069": {
+      "//Complejidad": "Baja,Media,Alta",
+      "value": "No aplica"
+    },
+    "customfield_11013": {
+      "//Estado del Test": "Activo, Por actualizar, Inactivo",
+      "value": "Activo"
+    }
+  }
+}

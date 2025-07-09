@@ -1,0 +1,46 @@
+# Directorios
+target/
+.idea/
+.vscode/
+response/
+node_modules/
+
+# Archivos
+*.iml
+debug.log
+*.DS_Store
+*.properties
+
+# Archivos de compilación
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos de configuración del sistema operativo
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Archivos de logs
+*.log
+*.txt
+
+# Archivos de configuración de IDEs
+*.idea/
+*.vscode/
+*.project
+*.classpath
+*.settings/
+*.factorypath
+
+# Archivos ejecutables
+*.exe
+*.msi
+*.sh
+*.bat
+*.bin
+*.run
+*.out
+*.zip
